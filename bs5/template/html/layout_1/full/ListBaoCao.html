@@ -12,6 +12,7 @@
 	<link href="../../../assets/icons/phosphor/styles.min.css" rel="stylesheet" type="text/css">
 	<link href="assets/css/ltr/all.min.css" id="stylesheet" rel="stylesheet" type="text/css">
 	<link href="../../../fontawesome-free-6.4.0-web/css/all.css" id="stylesheet" rel="stylesheet" type="text/css">
+	<link href="../../../fontawesome-free-6.4.0-web/js/all.min.js" id="stylesheet" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
@@ -21,10 +22,10 @@
 
 	<!-- Theme JS files -->
 	<script src="../../../assets/js/jquery/jquery.min.js"></script>
-	<script src="../../../assets/js/vendor/tables/datatables/datatables.min.js"></script>
+	<!-- <script src="../../../assets/js/vendor/tables/datatables/datatables.min.js"></script> -->
 
 	<script src="assets/js/app.js"></script>
-	<script src="../../../assets/demo/pages/datatables_api.js"></script>
+	<!-- <script src="../../../assets/demo/pages/datatables_api.js"></script> -->
 	<!-- /theme JS files -->
 
 </head>
@@ -256,66 +257,90 @@
 						</div>
 					</div>
 				</div>
-	<!-- Page content -->	
-		<!-- /main sidebar -->		
+	<!-- /main navbar -->
 				<!-- /page header -->
 				<div class="content">
 					<!-- Single row selection -->
 					<div class="card">
 						<div class="card-body">
-							<a class="btn btn-primary" href="addBC.html">Tạo Báo Cáo</a>
+							<a class="btn btn-primary" href="addKH.html">
+								<img src="../../../assets/images/icons/add white.png" style="height: 15px;" 
+							alt="">			
+							</a>
 						</div>
-						<table class="table datatable-selection-single" style="table-layout: fixed;" >
+						<table class="table datatable-selection-single">
 							<thead>
-								<tr>									
-									<th style="padding-right:300px; width: 50%;">Mô tả</th>
-									<th style="padding-left: 320px;width: 40%;">Trạng Thái</th>				
+								<tr>
+									<th>STT</th>
+									<th>Mô Tả</th>
+									<th>Người BC</th>
+									<th>KHLH</th>	
+									<th>Khách Hàng</th>							
+									<th>Ngày Hoàn Thành</th>
+
 								</tr>
 							</thead>
 							<tbody>
-								<tr>								
-									<td><a href="#">Báo cáo cuộc gọi</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
-									<td>
-										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
-										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
-									</td>
-								</tr>
-								<tr>								
-									<td><a href="#">Báo cáo kinh doanh</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
-									<td>
-										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
-										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
-									</td>
-								</tr>
-								<tr>								
-									<td><a href="#">Báo cáo IT</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
+								<tr>
+									<td>1</td>
+									<td><a href="">Báo cáo IT</a></td>
+									<td>Duy Hiếu</td>
+									<td>.... / ....</td>
+									<td>Bùi Xuân Hải</td>
+									<td>2011/04/25</td>
+									<td><span class="badge bg-info bg-opacity-10 text-info"></span></td>
 									<td>
 										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
 										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td><a href="#">Báo cáo truyền thông</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
+									<td>1</td>
+									<td><a href="">Báo cáo IT</a></td>
+									<td>Duy Hiếu</td>
+									<td>.... / ....</td>
+									<td>Bùi Xuân Hải</td>
+									<td>2011/04/25</td>
+									<td><span class="badge bg-info bg-opacity-10 text-info"></span></td>
 									<td>
 										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
 										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td><a href="#">Báo cáo Marketing</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
+									<td>1</td>
+									<td><a href="">Báo cáo IT</a></td>
+									<td>Duy Hiếu</td>
+									<td>.... / ....</td>
+									<td>Bùi Xuân Hải</td>
+									<td>2011/04/25</td>
+									<td><span class="badge bg-info bg-opacity-10 text-info"></span></td>
 									<td>
 										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
 										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td><a href="#">Báo cáo thực tập</a></td>
-									<td style="padding-left: 320px;"><span class="badge bg-info bg-opacity-10 text-info">Đã hoàn thành</span></td>
+									<td>1</td>
+									<td><a href="">Báo cáo IT</a></td>
+									<td>Duy Hiếu</td>
+									<td>.... / ....</td>
+									<td>Bùi Xuân Hải</td>
+									<td>2011/04/25</td>
+									<td><span class="badge bg-info bg-opacity-10 text-info"></span></td>
+									<td>
+										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
+										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
+									</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td><a href="">Báo cáo IT</a></td>
+									<td>Duy Hiếu</td>
+									<td>.... / ....</td>
+									<td>Bùi Xuân Hải</td>
+									<td>2011/04/25</td>
+									<td><span class="badge bg-info bg-opacity-10 text-info"></span></td>
 									<td>
 										<a href="#"><i class="fa-solid fa-pen-to-square"></i></a>
 										<a href="#"><i class="fa-solid fa-trash-can"></i></a>
