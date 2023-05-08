@@ -5499,7 +5499,7 @@ fieldset:disabled .btn {
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    /* padding: var(--card-spacer-y) var(--card-spacer-x); */
+    padding: var(--card-spacer-y) var(--card-spacer-x);
     color: var(--card-color)
 }
 
@@ -10148,7 +10148,7 @@ fieldset:disabled .btn {
 }
 
 .h-48px {
-    height: 3rem !important
+    height: 80px !important
 }
 
 .h-56px {
