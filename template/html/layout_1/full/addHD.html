@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+    <!-- Global stylesheets -->
+    <link href="../../../assets/fonts/inter/inter.css" rel="stylesheet" type="text/css">
+    <link href="../../../assets/icons/phosphor/styles.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/ltr/all.min.css" id="stylesheet" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="../../../assets/demo/demo_configurator.js"></script>
+    <script src="../../../assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="../../../assets/js/jquery/jquery.min.js"></script>
+    <script src="../../../assets/js/vendor/forms/validation/validate.min.js"></script>
+    <script src="../../../assets/js/vendor/forms/selects/select2.min.js"></script>
+    <script src="../../../assets/js/vendor/forms/inputs/imask.min.js"></script>
+    <script src="../../../assets/js/vendor/forms/inputs/autosize.min.js"></script>
+    <script src="../../../assets/js/vendor/forms/inputs/passy.js"></script>
+    <script src="../../../assets/js/vendor/forms/inputs/maxlength.min.js"></script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="../../../assets/demo/pages/form_validation_library.js"></script>
+    <script src="../../../assets/demo/pages/form_controls_extended.js"></script>
+    <!-- /theme JS files -->
+
+</head>
+
+<body>
+
+    <!-- Main navbar -->
+    <div class="navbar navbar-dark navbar-expand-lg navbar-static border-bottom border-bottom-white border-opacity-10">
+        <div class="container-fluid">
+            <div class="d-flex d-lg-none me-2">
+                <button type="button" class="navbar-toggler sidebar-mobile-main-toggle rounded-pill">
+                    <i class="ph-list"></i>
+                </button>
+            </div>
+
+            <div class="navbar-brand flex-1 flex-lg-0">
+                <a href="index.html" class="d-inline-flex align-items-center">
+                    <img src="../../../assets/images/logo_icon.svg" alt="">
+                    <img src="../../../assets/images/logo_text_light.svg" class="d-none d-sm-inline-block h-16px ms-3"
+                        alt="">
+                </a>
+            </div>         
+        </div>
+    </div>
+
+
+    <!-- Page content -->
+    <div class="page-content">
+
+        <!-- Main sidebar -->
+        <div class="content-wrapper">
+
+            <!-- Inner content -->
+            <div class="content-inner">
+
+                <!-- Page header -->
+
+                <div class="content">
+
+                    <!-- Form validation -->
+                    <div class="card">
+                        <h6 style="font-size: 30px; text-align: center;margin: 15px 0px;color: rgb(81, 152, 233); ">HỢP
+                            ĐỒNG</h6>
+                        <fieldset style="margin: 15px !important;">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Tên hợp đồng</label>
+                                        <textarea name="experience-description" rows="1" cols="1"
+                                            placeholder="VD: Hợp đồng A" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2">
+                                    <div class="mb-3">
+                                        <label class="form-label">Mã hợp đồng</label>
+                                        <textarea name="experience-description" rows="1" cols="1"
+                                            placeholder="VD: NH350683" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Tên khách hàng</label>
+                                        <textarea name="experience-description" rows="1" cols="1"
+                                            placeholder="VD: Nguyễn Văn A" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label class="form-label">Nội dung</label>
+                                        <textarea name="experience-description" rows="6" cols="4"
+                                            placeholder="Mô tả nội dung hợp đồng" class="form-control"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="mb-3">
+                                        <label class="form-label">Ngày ký</label>
+                                        <input class="form-control" type="date" name="datetime-local">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="mb-3">
+                                        <label class="form-label">Ngày hết hiệu lực</label>
+                                        <input class="form-control" type="date" name="datetime-local">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">Người chịu trách nhiệm</label>
+                                        <select name="location" class="form-select">
+                                            <option value="1" selected>---</option>
+                                            <option value="1">Lê Nguyễn Chun Naa</option>
+                                            <option value="2">Nguyễn Phú Hải</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Giá trị hợp đồng</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="Nhập số tiền hợp đồng ($)" id="mask_currency">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Đã thanh toán</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="Nhập số tiền đã thanh toán ($)" id="mask_currency">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Còn lại</label>
+                                        <input type="text" class="form-control"
+                                            placeholder="Nhập số tiền còn lại ($)" id="mask_currency">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Ngày kết thúc</label>
+                                        <input class="form-control" type="date" name="datetime-local">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Ngày tái ký</label>
+                                        <input class="form-control" type="date" name="datetime-local">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="mb-3">
+                                        <label class="form-label">Tình trạng</label>
+                                        <select name="location" class="form-select">
+                                            <option value="1" selected>---</option>
+                                            <option value="1">Chờ xác nhận</option>
+                                            <option value="2">Đang thực hiện</option>
+                                            <option value="2">Đã hoàn thành</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+
+                        <div class="card-footer d-flex justify-content-end">
+                            <a class="btn btn-primary ms-3" style="text-decoration: none;"
+                                href="ListBaoCao.html">Previous</a>
+                            <button type="submit" class="btn btn-primary ms-3">Submit <i
+                                    class="ph-paper-plane-tilt ms-2"></i></button>
+                        </div>
+
+                        
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
