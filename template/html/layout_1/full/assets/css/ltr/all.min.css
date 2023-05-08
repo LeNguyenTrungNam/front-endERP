@@ -36599,7 +36599,7 @@ html[data-color-theme=dark] .sidebar-expand {
 
 .sidebar-expand.sidebar-main-resized:not(.sidebar-collapsed):not(.sidebar-main-unfold) {
     --sidebar-width: calc(var(--spacer) * 2 + var(--icon-font-size));
-    --sidebar-section-padding-x: 0;
+    --sidebar-section-padding-x: 0px;
     overflow: hidden
 }
 
